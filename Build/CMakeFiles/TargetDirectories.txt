@@ -1,0 +1,3 @@
+C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build/CMakeFiles/Tienda_Parra.dir
+C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build/CMakeFiles/edit_cache.dir
+C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build/CMakeFiles/rebuild_cache.dir
