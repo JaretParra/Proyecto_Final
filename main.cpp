@@ -66,88 +66,83 @@ void mercancia_almacen(string rol){
 	
 	
 	if(rol == "admin"){
-	
-		do{
-				cout << "Ingresa la accion que deseas realizar." <<endl;
-                    cout << "[1]consultar , [2]modificar un registro, [3]anadir, [4]eliminar registro , [5]salir"<<endl;
-                    cin >> accion;
+	    do{
+		    cout << "Ingresa la accion que deseas realizar." <<endl;
+            cout << "[1]consultar , [2]modificar un registro, [3]anadir, [4]eliminar registro , [5]salir"<<endl;
+            cin >> accion;
+            
+            switch (accion) {
+                case 1: // Consulta
+                    cout <<" --------------------- "<<endl;
+                    cout <<" | Tabla de mercancia |"<<endl;
+                    cout <<" --------------------- "<<endl;
                     
-                    	switch (accion) {
-        case 1: // Consulta
-        cout <<" --------------------- "<<endl;
-        cout <<" | Tabla de mercancia |"<<endl;
-        cout <<" --------------------- "<<endl;
-            for (int i = 0; i < productos.size(); i++) {
-            	
-                cout << "Producto: " << productos[i][0] << " Cantidad: " << productos[i][1] << " Precio: " << productos[i][2] << " Proveedor: " << productos[i][3] <<endl;
-               cout << " "<<endl;
+                    for(int i = 0; i < productos.size(); i++) {
+            	        cout << "Producto: " << productos[i][0] << " Cantidad: " << productos[i][1] << " Precio: " << productos[i][2] << " Proveedor: " << productos[i][3] <<endl;
+                        cout << " "<<endl;
+                    }
+                    break;
                 
-            }
-            break;
+                case 2: // Modificar registro
+                   cout << "Que producto desea modificar" << endl;
+                   cin >> originalProducto;
+                
+                    for(int i = 0; i < productos.size(); i++) {
+                        if (productos[i][0] == originalProducto) {
+                            cout << "Ingresa el nuevo nombre del producto: ";
+                            cin >> newName;
+                            cout << "Ingresa la cantidad: ";
+                            cin >> newCant;
+                            cout << "Ingresa el precio: ";
+                            cin >> newPrice;
+                            cout << "Ingresa el proveedor: ";
+                            cin >> newProveedor;
+                    
+                            productos[i][0] = newName;
+                            productos[i][1] = to_string(newCant);
+                            productos[i][2] = to_string(newPrice);
+                            productos[i][3] = newProveedor;
+                    
+                            cout << "\n Los cambios fueron: " << productos[i][0] << " , " << productos[i][1] << " , "<< productos[i][2]<< " , " << productos[i][3] <<endl;
+                            status=1;
+                            break;
+                        }
+                    }
 
-        case 2: // Modificar registro
-       
-            cout << "Que producto desea modificar" << endl;
-            cin >> originalProducto;
+                    if (status == 0) { // Se verifica si el usuario no se encontró durante la modificación
+                        cout << "El producto no existe." << endl;
+                    }
+                break;
 
-            for (int i = 0; i < productos.size(); i++) {
-                if (productos[i][0] == originalProducto) {
-                    cout << "Ingresa el nuevo nombre del producto: ";
+                case 3: // Añadir 
+                    cout << "Ingresa el nombre del nuevo producto: ";
                     cin >> newName;
                     cout << "Ingresa la cantidad: ";
                     cin >> newCant;
-                    cout << "Ingresa el precio: ";
-                    cin >> newPrice;
-                     cout << "Ingresa el proveedor: ";
-                    cin >> newProveedor;
-
-                    productos[i][0] = newName;
-                    productos[i][1] = to_string(newCant);
-                    productos[i][2] = to_string(newPrice);
-                    productos[i][3] = newProveedor;
-                    
-                    
-                    cout << "\n Los cambios fueron: " << productos[i][0] << " , " << productos[i][1] << " , "<< productos[i][2]<< " , " << productos[i][3] <<endl;
-                    status=1;
-                    break; 
+                    cout << "Ingresa el precio por unidad: ";
+                    cin >> price;
+                    cout << "Ingresa el proveedor: ";
+                    cin >>newProveedor;
+            
+                    productos.push_back({newName,to_string(newCant),to_string(price),newProveedor});
+                break;
+        
+                char confirmar ;
+        
+                case 4: // Borrar
+                    cout << "Ingresa el nombre del producto a borrar: ";
+                    cin >> deleteItem;
+                    cout << ">Estas seguro? [y/n] ";
+                    cin >> confirmar;
+            
+                    if(confirmar == 'n'){
+            	    cout << "Proceso cancelado...";
+            	    break;
                 }
-            }
-
-            if (status == 0) { // Se verifica si el usuario no se encontró durante la modificación
-                cout << "El producto no existe." << endl;
-            }
-            break;
-
-        case 3: // Añadir 
-            cout << "Ingresa el nombre del nuevo producto: ";
-            cin >> newName;
-            cout << "Ingresa la cantidad: ";
-            cin >> newCant;
-            cout << "Ingresa el precio por unidad: ";
-            cin >> price;
-            cout << "Ingresa el proveedor: ";
-            cin >>newProveedor;
-            
-            productos.push_back({newName,to_string(newCant),to_string(price),newProveedor});
-            
-            break;
-            
-            
-            char confirmar ;
-        case 4: // Borrar
-            cout << "Ingresa el nombre del producto a borrar: ";
-            cin >> deleteItem;
-            cout << ">Estas seguro? [y/n] ";
-            cin >> confirmar;
-            
-            if(confirmar == 'n'){
-            	cout << "Proceso cancelado...";
-            	break;
-			}
             
 
-            for (auto it = productos.begin(); it != productos.end(); ++it) {
-                if ((*it)[0] == deleteItem) {
+                for (auto it = productos.begin(); it != productos.end(); ++it) {
+                    if ((*it)[0] == deleteItem) {
                     it = productos.erase(it);
                     --it; // Se decrementa el iterador para no omitir el siguiente elemento
                     cout << "Producto borrado exitosamente." << endl;
@@ -352,6 +347,10 @@ int main(){
     if(opcion==1){
         Modulo_Menu_Usuarios();
     }
+
+    string rol = "admin";
+    mercancia_almacen(rol);
+    user();
 
     return 0;
 }
