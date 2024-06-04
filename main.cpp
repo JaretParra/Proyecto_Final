@@ -67,8 +67,12 @@ void mercancia_almacen(string rol){
 	
 	if(rol == "admin"){
 	    do{
-		    cout << "Ingresa la accion que deseas realizar." <<endl;
-            cout << "[1]consultar , [2]modificar un registro, [3]anadir, [4]eliminar registro , [5]salir"<<endl;
+		    cout<<"Ingresa la accion que deseas realizar:" <<endl;
+            cout<<"1)consultar."<<endl;
+            cout<<"2)modificar un registro."<<endl;
+            cout<<"3)anadir."<<endl;
+            cout<<"4)eliminar registro.";
+            cout<<"5)salir."<<endl;
             cin >> accion;
             
             switch (accion) {
