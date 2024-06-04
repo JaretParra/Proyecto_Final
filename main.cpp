@@ -48,6 +48,37 @@ int Modulo_Menu_Usuarios(){
 
 }
 
+int Modulo_Menus_Mercancia(){
+	int _opcion , finish;
+	cout << "Bienvenido al modulo de mercancia" <<endl;
+	cout<<"1) Registrar Usuario."<<endl;
+    cout<<"2) Eliminar Usuario."<<endl;
+    cout<<"3) Modificar Usiario."<<endl;
+    cout<<"4) Consultar Usiarios."<<endl;
+    cout<<"5) salir del Modulo."<<endl;
+    cin >> _opcion;
+    
+    if (_opcion == 1){
+    	return 1;
+	} 
+	if (_opcion == 2){
+    	return 2;
+	} 
+	if (_opcion == 3){
+    	return 3;
+	} 
+	if (_opcion == 4){
+    	return 4;
+	} 
+	if(_opcion == 5){
+		return 0;
+	}
+	
+	return 404;
+	
+}
+
+
 void mercancia_almacen(string rol){ 
 	
 
@@ -344,6 +375,8 @@ para la db se usa un vector bidimensional
 
 int main(){
     int opcion;
+    
+    cout << Modulo_Menus_Mercancia();
     
     opcion = Menu();
 
