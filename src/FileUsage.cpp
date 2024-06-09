@@ -15,42 +15,44 @@ void altaDatos(string _datos[3]){
 
 /*Elimina Usuarios*/
 void bajaDatos(string _nombre){
-    string dato;
-    string linea;
-    vector<string> temp;
-    int num_line = 0;
-    bool encontrado = false;
+    if(_nombre!="error_not_found"){
+        string dato;
+        string linea;
+        vector<string> temp;
+        int num_line = 0;
+        bool encontrado = false;
 
-    infile.open(fileName);
+        infile.open(fileName);
 
-    while(infile>>dato){
-        num_line++;
-        if(dato==_nombre){
-            encontrado = true;
-            break;
-        }
-    }
-    
-    while(getline(infile,linea)){
-        temp.push_back(linea);
-    }
-
-    infile.close();
-
-    if(encontrado){
-        outfile.open(fileName);
-
-        for(int i=0;i<temp.size();i++){
-            if((i<num_line)||(i>(num_line+3))){
-                outfile << temp[i] <<endl;
+        while(infile>>dato){
+            num_line++;
+            if(dato==_nombre){
+                encontrado = true;
+                break;
             }
         }
+    
+        while(getline(infile,linea)){
+            temp.push_back(linea);
+        }
 
-        cout<<"Usuario Eliminado con exito."<<endl;
+        infile.close();
 
-        outfile.close();
-    }else{
-        cout << "Usuario no encontrado."<<endl;
+        if(encontrado){
+            outfile.open(fileName);
+
+            for(int i=0;i<temp.size();i++){
+                if((i<num_line)||(i>(num_line+3))){
+                    outfile << temp[i] <<endl;
+                }
+            }
+
+            cout<<"Usuario Eliminado con exito."<<endl;
+
+            outfile.close();
+        }else{
+            cout << "Usuario no encontrado."<<endl;
+        }
     }
 }
 
@@ -96,7 +98,8 @@ void cambiosdatos(string _nombre, string _datos[3]){
 
         cout<<"Usuario Cambiado con exito."<<endl;
     }else{
-        cout << "Usuario no encontrado."<<endl;
+        cout<<"Usuario no encontrado."<<endl;
+        cout<<"Operacion no realizada."<<endl;
     }
 }
 

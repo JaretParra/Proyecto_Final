@@ -20,14 +20,41 @@ void RegistrarUsuario(){
     getline(cin,datos[2]);
 }
 
-void EliminarUsuario(){
+string EliminarUsuario(){
+    char confir='n';
     system("cls");
 
     cout<<"2)Eliminacion de Usuario.";
     cout<<"Ingrese el nombre del Usuario:"<<endl;
     cout<<"Nombre: ";
     getline(cin,nombre);
+    cout<<"Esta seguro de continuar[y/n]: ";
+    cin>>confir;
+    confir = tolower(confir);
+
+    if(confir='y'){
+        return nombre;
+    }else{
+        return "error_not_found";
+    }
+
+}
+
+void ModificarUsuario(){
+    system("cls");
     
+    cout<<"3)Modificacion de Usuario."<<endl;
+    cout<<"Ingrese el nombre del Usuario:"<<endl;
+    cout<<"Nombre: ";
+    getline(cin,nombre);
+
+    cout<<"\nIngresa los nuevos datos del Usuario:"<<endl;
+    cout<<"Nombre: ";
+    getline(cin,datos[0]);
+    cout<<"Contraseña: ";
+    getline(cin,datos[1]);
+    cout<<"Rol: ";
+    getline(cin,datos[2]);
 }
 
 void MenuUsuarios(){
@@ -49,9 +76,18 @@ void MenuUsuarios(){
             RegistrarUsuario();
             altaDatos(datos);
         }
-        if(opcion==2){}
-        if(opcion==3){}
-        if(opcion==4){}
-        if(opcion==5){}
+        if(opcion==2){
+            bajaDatos(EliminarUsuario());
+        }
+        if(opcion==3){
+            ModificarUsuario();
+            cambiosDatos(nombre,datos);
+        }
+        if(opcion==4){
+            consultaDatos();
+        }
+        if(opcion==5){
+            flag==true;
+        }
     }
 }

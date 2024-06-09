@@ -2,6 +2,7 @@
 #define MENUUSUARIOS_H
 
 #include<stdlib.h>
+#include<cctype>
 
 #include"FileUsage.h"
 
