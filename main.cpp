@@ -3,6 +3,7 @@
 #include<string>
 #include<vector>
 
+#include"Headers/FileUsage.h"
 
 using namespace std;
 

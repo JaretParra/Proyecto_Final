@@ -4,5 +4,11 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\main.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\main.cpp\"",
   "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/main.cpp",
   "output": "CMakeFiles/Tienda_Parra.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\FileUsage.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\FileUsage.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/FileUsage.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj"
 }
 ]

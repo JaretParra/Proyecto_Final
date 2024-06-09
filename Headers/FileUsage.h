@@ -9,7 +9,7 @@
 
 using namespace std;
 
-string fileName = "usuarios.txt";
+string fileName = "../Data/usuarios.txt";
 
 ofstream outfile;
 ifstream infile;
@@ -18,7 +18,7 @@ void altaDatos(string _datos[3]){}
 
 void bajaDatos(string _nombre){}
 
-void cambiosDatos(){}
+void cambiosDatos(string _nombre, string _datos[3]){}
 
 void consultaDatos(){}
 

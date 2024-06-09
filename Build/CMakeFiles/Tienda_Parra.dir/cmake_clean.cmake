@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tienda_Parra.dir/main.cpp.obj"
   "CMakeFiles/Tienda_Parra.dir/main.cpp.obj.d"
+  "CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj"
+  "CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj.d"
   "Tienda_Parra.exe"
   "Tienda_Parra.exe.manifest"
   "Tienda_Parra.pdb"

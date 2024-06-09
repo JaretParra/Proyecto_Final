@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/FileUsage.obj: src/FileUsage.cpp.obj
+.PHONY : src/FileUsage.obj
+
+# target to build an object file
+src/FileUsage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj
+.PHONY : src/FileUsage.cpp.obj
+
+src/FileUsage.i: src/FileUsage.cpp.i
+.PHONY : src/FileUsage.i
+
+# target to preprocess a source file
+src/FileUsage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.i
+.PHONY : src/FileUsage.cpp.i
+
+src/FileUsage.s: src/FileUsage.cpp.s
+.PHONY : src/FileUsage.s
+
+# target to generate assembly for a file
+src/FileUsage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.s
+.PHONY : src/FileUsage.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/FileUsage.obj
+	@echo ... src/FileUsage.i
+	@echo ... src/FileUsage.s
 .PHONY : help
 
 
