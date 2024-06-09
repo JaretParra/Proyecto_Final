@@ -3,7 +3,7 @@
 #include<string>
 #include<vector>
 
-#include"Headers/FileUsage.h"
+#include"Headers/MenuUsuarios.h"
 
 using namespace std;
 
@@ -11,7 +11,7 @@ int Menu(){
     int _opcion;
     cout<<"\t BIENVENIDO AL SISTEMA DE VENTAS:"<<endl;
     cout<<"\t TIENDA PARRA"<<endl;
-
+    
     cout<<"\nLos modulos son:"<<endl;
     cout<<"1) Usuarios."<<endl;
     cout<<"2) Almacen."<<endl;
@@ -32,22 +32,6 @@ int Menu(){
     if(_opcion==4){
         return 4;
     }
-}
-
-int Modulo_Menu_Usuarios(){
-    int _opcion;
-    cout<<"BIENVENIDO AL MODULO DE USUARIOS :D"<<endl;
-    cout<<"1) Registrar Usuario."<<endl;
-    cout<<"2) Eliminar Usuario."<<endl;
-    cout<<"3) Modificar Usuarios."<<endl;
-    cout<<"4) Consultar Usuarios."<<endl;
-    cout<<"5) salir del Modulo."<<endl;
-    cin>>_opcion;
-
-    if(_opcion==1){
-        return 1;
-    }
-
 }
 
 int Modulo_Menus_Mercancia(){
@@ -380,9 +364,7 @@ int main(){
     opcion = Menu();
 
     system("cls");
-    if(opcion==1){
-        Modulo_Menu_Usuarios();
-    }
+    if(opcion==1){}
 
     string rol = "admin";
     mercancia_almacen(rol);
