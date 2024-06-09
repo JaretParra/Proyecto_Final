@@ -102,7 +102,13 @@ void cambiosdatos(string _nombre, string _datos[3]){
 
 /*Muestra todos los usuarios*/
 void consultaDatos(){
+    string linea;
+
     infile.open(fileName);
-    infile;
+
+    while(getline(infile,linea)){
+        cout<<linea<<endl;
+    }
+
     infile.close();
 }
