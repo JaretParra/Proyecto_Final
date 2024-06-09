@@ -3,6 +3,7 @@
 #include<string>
 #include<vector>
 
+
 using namespace std;
 
 int Menu(){
@@ -37,8 +38,8 @@ int Modulo_Menu_Usuarios(){
     cout<<"BIENVENIDO AL MODULO DE USUARIOS :D"<<endl;
     cout<<"1) Registrar Usuario."<<endl;
     cout<<"2) Eliminar Usuario."<<endl;
-    cout<<"3) Modificar Usiario."<<endl;
-    cout<<"4) Consultar Usiarios."<<endl;
+    cout<<"3) Modificar Usuarios."<<endl;
+    cout<<"4) Consultar Usuarios."<<endl;
     cout<<"5) salir del Modulo."<<endl;
     cin>>_opcion;
 
@@ -246,24 +247,21 @@ para la db se usa un vector bidimensional
 		cin >> pasword;
 		cout << " " << endl;
 		
-		for (int i = 0; i < 5; i++) { //autenticacion
-                             if (usuarios[i][0] == username) {
-                             	
-                                if(usuarios[i][1] == pasword){
-                                	if(usuarios[i][2] == "admin"){
-                                		cout << "Bienvenido " << username << endl;
-                                		superRol = "admin";
-                                		stat = 0;
-                                		break;
-									} else {
-										cout << username << " No tiene permitido el ingreso a este modulo" << endl;
-										
-									}
-								} 
-								                                                         
-                        }
-                    }
-          }
+		for(int i = 0; i < 5; i++) { //autenticacion
+            if (usuarios[i][0] == username) {
+                if(usuarios[i][1] == pasword){
+                	if(usuarios[i][2] == "admin"){
+                		cout << "Bienvenido " << username << endl;
+                        superRol = "admin";
+                        stat = 0;
+                        break;
+					}else{
+						cout << username << " No tiene permitido el ingreso a este modulo" << endl;
+					}
+				} 
+		    }
+        }
+    }
 		
 		
 		
