@@ -4,6 +4,4 @@
 #include<stdlib.h>
 #include<cctype>
 
-#include"StockUsage.h"
-
 #endif
