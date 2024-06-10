@@ -22,4 +22,6 @@ void cambiosDatos(string _nombre, string _datos[3]){}
 
 void consultaDatos(){}
 
+string sesion(){}
+
 #endif

@@ -22,4 +22,6 @@ void cambiosStock(string _nombre, string _datos[4]){}
 
 void consultaStock(){}
 
+void buscaStock(){}
+
 #endif

@@ -115,3 +115,54 @@ void consultaDatos(){
 
     infile.close();
 }
+
+string sesion(){
+    string guess, passwd;
+    string dato;
+    string linea;
+    int num_line = 0;
+    int i=0;
+    bool encontrado = false;
+
+    system("cls");
+    cout<<"_-_"<<endl;
+    cout<<"|||"<<endl;
+    cout<<"==="<<endl;
+
+    cout<<"Ingrese su usuario: ";
+    getline(cin,guess);
+
+    infile.open(fileName);
+    while(infile>>dato){
+        num_line++;
+        if(dato==guess){
+            encontrado = true;
+            break;
+        }
+    }
+
+    if(encontrado){
+        cout<<"Ingrese su contraseña: ";
+        getline(cin,passwd);
+
+        while(infile>>linea){
+            i++;
+            if(i==(num_line+1)){
+                if(passwd==linea){
+                    while(infile>>linea){
+                        if(linea=="admin"){
+                            infile.close();
+                            return "admin";
+                        }else{
+                            infile.close();
+                            return "cajero";
+                        }
+                    }
+                }
+            }
+        }
+    }else{
+        infile.close();
+        return "not_found";
+    }
+}
