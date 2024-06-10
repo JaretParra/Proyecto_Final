@@ -6,6 +6,7 @@
 #include<string>
 #include<vector>
 #include<array>
+#include<cstdio>
 
 using namespace std;
 
