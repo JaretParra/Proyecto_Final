@@ -96,21 +96,149 @@ CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.s"
 	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\FileUsage.cpp" -o CMakeFiles\Tienda_Parra.dir\src\FileUsage.cpp.s
 
+CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/MenuMercancia.cpp
+CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\MenuMercancia.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\MenuMercancia.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuMercancia.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuMercancia.cpp" > CMakeFiles\Tienda_Parra.dir\src\MenuMercancia.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuMercancia.cpp" -o CMakeFiles\Tienda_Parra.dir\src\MenuMercancia.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/MenuOfertas.cpp
+CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\MenuOfertas.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\MenuOfertas.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuOfertas.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuOfertas.cpp" > CMakeFiles\Tienda_Parra.dir\src\MenuOfertas.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuOfertas.cpp" -o CMakeFiles\Tienda_Parra.dir\src\MenuOfertas.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/MenuProvedores.cpp
+CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\MenuProvedores.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\MenuProvedores.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuProvedores.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuProvedores.cpp" > CMakeFiles\Tienda_Parra.dir\src\MenuProvedores.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuProvedores.cpp" -o CMakeFiles\Tienda_Parra.dir\src\MenuProvedores.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/MenuUsuarios.cpp
+CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\MenuUsuarios.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\MenuUsuarios.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuUsuarios.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuUsuarios.cpp" > CMakeFiles\Tienda_Parra.dir\src\MenuUsuarios.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\MenuUsuarios.cpp" -o CMakeFiles\Tienda_Parra.dir\src\MenuUsuarios.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/OfertasUsage.cpp
+CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\OfertasUsage.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\OfertasUsage.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\OfertasUsage.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\OfertasUsage.cpp" > CMakeFiles\Tienda_Parra.dir\src\OfertasUsage.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\OfertasUsage.cpp" -o CMakeFiles\Tienda_Parra.dir\src\OfertasUsage.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/ProvedoresUsage.cpp
+CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\ProvedoresUsage.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\ProvedoresUsage.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\ProvedoresUsage.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\ProvedoresUsage.cpp" > CMakeFiles\Tienda_Parra.dir\src\ProvedoresUsage.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\ProvedoresUsage.cpp" -o CMakeFiles\Tienda_Parra.dir\src\ProvedoresUsage.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/PuntoDeVenta.cpp
+CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\PuntoDeVenta.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\PuntoDeVenta.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\PuntoDeVenta.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\PuntoDeVenta.cpp" > CMakeFiles\Tienda_Parra.dir\src\PuntoDeVenta.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\PuntoDeVenta.cpp" -o CMakeFiles\Tienda_Parra.dir\src\PuntoDeVenta.cpp.s
+
+CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj: CMakeFiles/Tienda_Parra.dir/flags.make
+CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj: C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/src/StockUsage.cpp
+CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj: CMakeFiles/Tienda_Parra.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj -MF CMakeFiles\Tienda_Parra.dir\src\StockUsage.cpp.obj.d -o CMakeFiles\Tienda_Parra.dir\src\StockUsage.cpp.obj -c "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\StockUsage.cpp"
+
+CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\StockUsage.cpp" > CMakeFiles\Tienda_Parra.dir\src\StockUsage.cpp.i
+
+CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\src\StockUsage.cpp" -o CMakeFiles\Tienda_Parra.dir\src\StockUsage.cpp.s
+
 # Object files for target Tienda_Parra
 Tienda_Parra_OBJECTS = \
 "CMakeFiles/Tienda_Parra.dir/main.cpp.obj" \
-"CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj"
+"CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj" \
+"CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj"
 
 # External object files for target Tienda_Parra
 Tienda_Parra_EXTERNAL_OBJECTS =
 
 Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/main.cpp.obj
 Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj
+Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj
 Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/build.make
 Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/linkLibs.rsp
 Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/objects1.rsp
 Tienda_Parra.exe: CMakeFiles/Tienda_Parra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Tienda_Parra.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\jaret\OneDrive - Universidad Veracruzana\2Semestre\Programacion Estructurada\Proyecto_Final\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable Tienda_Parra.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Tienda_Parra.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

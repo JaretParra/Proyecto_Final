@@ -176,6 +176,198 @@ src/FileUsage.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.s
 .PHONY : src/FileUsage.cpp.s
 
+src/MenuMercancia.obj: src/MenuMercancia.cpp.obj
+.PHONY : src/MenuMercancia.obj
+
+# target to build an object file
+src/MenuMercancia.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj
+.PHONY : src/MenuMercancia.cpp.obj
+
+src/MenuMercancia.i: src/MenuMercancia.cpp.i
+.PHONY : src/MenuMercancia.i
+
+# target to preprocess a source file
+src/MenuMercancia.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.i
+.PHONY : src/MenuMercancia.cpp.i
+
+src/MenuMercancia.s: src/MenuMercancia.cpp.s
+.PHONY : src/MenuMercancia.s
+
+# target to generate assembly for a file
+src/MenuMercancia.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.s
+.PHONY : src/MenuMercancia.cpp.s
+
+src/MenuOfertas.obj: src/MenuOfertas.cpp.obj
+.PHONY : src/MenuOfertas.obj
+
+# target to build an object file
+src/MenuOfertas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj
+.PHONY : src/MenuOfertas.cpp.obj
+
+src/MenuOfertas.i: src/MenuOfertas.cpp.i
+.PHONY : src/MenuOfertas.i
+
+# target to preprocess a source file
+src/MenuOfertas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.i
+.PHONY : src/MenuOfertas.cpp.i
+
+src/MenuOfertas.s: src/MenuOfertas.cpp.s
+.PHONY : src/MenuOfertas.s
+
+# target to generate assembly for a file
+src/MenuOfertas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.s
+.PHONY : src/MenuOfertas.cpp.s
+
+src/MenuProvedores.obj: src/MenuProvedores.cpp.obj
+.PHONY : src/MenuProvedores.obj
+
+# target to build an object file
+src/MenuProvedores.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj
+.PHONY : src/MenuProvedores.cpp.obj
+
+src/MenuProvedores.i: src/MenuProvedores.cpp.i
+.PHONY : src/MenuProvedores.i
+
+# target to preprocess a source file
+src/MenuProvedores.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.i
+.PHONY : src/MenuProvedores.cpp.i
+
+src/MenuProvedores.s: src/MenuProvedores.cpp.s
+.PHONY : src/MenuProvedores.s
+
+# target to generate assembly for a file
+src/MenuProvedores.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.s
+.PHONY : src/MenuProvedores.cpp.s
+
+src/MenuUsuarios.obj: src/MenuUsuarios.cpp.obj
+.PHONY : src/MenuUsuarios.obj
+
+# target to build an object file
+src/MenuUsuarios.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj
+.PHONY : src/MenuUsuarios.cpp.obj
+
+src/MenuUsuarios.i: src/MenuUsuarios.cpp.i
+.PHONY : src/MenuUsuarios.i
+
+# target to preprocess a source file
+src/MenuUsuarios.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.i
+.PHONY : src/MenuUsuarios.cpp.i
+
+src/MenuUsuarios.s: src/MenuUsuarios.cpp.s
+.PHONY : src/MenuUsuarios.s
+
+# target to generate assembly for a file
+src/MenuUsuarios.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.s
+.PHONY : src/MenuUsuarios.cpp.s
+
+src/OfertasUsage.obj: src/OfertasUsage.cpp.obj
+.PHONY : src/OfertasUsage.obj
+
+# target to build an object file
+src/OfertasUsage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj
+.PHONY : src/OfertasUsage.cpp.obj
+
+src/OfertasUsage.i: src/OfertasUsage.cpp.i
+.PHONY : src/OfertasUsage.i
+
+# target to preprocess a source file
+src/OfertasUsage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.i
+.PHONY : src/OfertasUsage.cpp.i
+
+src/OfertasUsage.s: src/OfertasUsage.cpp.s
+.PHONY : src/OfertasUsage.s
+
+# target to generate assembly for a file
+src/OfertasUsage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.s
+.PHONY : src/OfertasUsage.cpp.s
+
+src/ProvedoresUsage.obj: src/ProvedoresUsage.cpp.obj
+.PHONY : src/ProvedoresUsage.obj
+
+# target to build an object file
+src/ProvedoresUsage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj
+.PHONY : src/ProvedoresUsage.cpp.obj
+
+src/ProvedoresUsage.i: src/ProvedoresUsage.cpp.i
+.PHONY : src/ProvedoresUsage.i
+
+# target to preprocess a source file
+src/ProvedoresUsage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.i
+.PHONY : src/ProvedoresUsage.cpp.i
+
+src/ProvedoresUsage.s: src/ProvedoresUsage.cpp.s
+.PHONY : src/ProvedoresUsage.s
+
+# target to generate assembly for a file
+src/ProvedoresUsage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.s
+.PHONY : src/ProvedoresUsage.cpp.s
+
+src/PuntoDeVenta.obj: src/PuntoDeVenta.cpp.obj
+.PHONY : src/PuntoDeVenta.obj
+
+# target to build an object file
+src/PuntoDeVenta.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj
+.PHONY : src/PuntoDeVenta.cpp.obj
+
+src/PuntoDeVenta.i: src/PuntoDeVenta.cpp.i
+.PHONY : src/PuntoDeVenta.i
+
+# target to preprocess a source file
+src/PuntoDeVenta.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.i
+.PHONY : src/PuntoDeVenta.cpp.i
+
+src/PuntoDeVenta.s: src/PuntoDeVenta.cpp.s
+.PHONY : src/PuntoDeVenta.s
+
+# target to generate assembly for a file
+src/PuntoDeVenta.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.s
+.PHONY : src/PuntoDeVenta.cpp.s
+
+src/StockUsage.obj: src/StockUsage.cpp.obj
+.PHONY : src/StockUsage.obj
+
+# target to build an object file
+src/StockUsage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj
+.PHONY : src/StockUsage.cpp.obj
+
+src/StockUsage.i: src/StockUsage.cpp.i
+.PHONY : src/StockUsage.i
+
+# target to preprocess a source file
+src/StockUsage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.i
+.PHONY : src/StockUsage.cpp.i
+
+src/StockUsage.s: src/StockUsage.cpp.s
+.PHONY : src/StockUsage.s
+
+# target to generate assembly for a file
+src/StockUsage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tienda_Parra.dir\build.make CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.s
+.PHONY : src/StockUsage.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +383,30 @@ help:
 	@echo ... src/FileUsage.obj
 	@echo ... src/FileUsage.i
 	@echo ... src/FileUsage.s
+	@echo ... src/MenuMercancia.obj
+	@echo ... src/MenuMercancia.i
+	@echo ... src/MenuMercancia.s
+	@echo ... src/MenuOfertas.obj
+	@echo ... src/MenuOfertas.i
+	@echo ... src/MenuOfertas.s
+	@echo ... src/MenuProvedores.obj
+	@echo ... src/MenuProvedores.i
+	@echo ... src/MenuProvedores.s
+	@echo ... src/MenuUsuarios.obj
+	@echo ... src/MenuUsuarios.i
+	@echo ... src/MenuUsuarios.s
+	@echo ... src/OfertasUsage.obj
+	@echo ... src/OfertasUsage.i
+	@echo ... src/OfertasUsage.s
+	@echo ... src/ProvedoresUsage.obj
+	@echo ... src/ProvedoresUsage.i
+	@echo ... src/ProvedoresUsage.s
+	@echo ... src/PuntoDeVenta.obj
+	@echo ... src/PuntoDeVenta.i
+	@echo ... src/PuntoDeVenta.s
+	@echo ... src/StockUsage.obj
+	@echo ... src/StockUsage.i
+	@echo ... src/StockUsage.s
 .PHONY : help
 
 

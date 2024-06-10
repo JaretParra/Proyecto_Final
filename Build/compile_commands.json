@@ -10,5 +10,53 @@
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\FileUsage.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\FileUsage.cpp\"",
   "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/FileUsage.cpp",
   "output": "CMakeFiles/Tienda_Parra.dir/src/FileUsage.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\MenuMercancia.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\MenuMercancia.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/MenuMercancia.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/MenuMercancia.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\MenuOfertas.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\MenuOfertas.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/MenuOfertas.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/MenuOfertas.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\MenuProvedores.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\MenuProvedores.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/MenuProvedores.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\MenuUsuarios.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\MenuUsuarios.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/MenuUsuarios.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/MenuUsuarios.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\OfertasUsage.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\OfertasUsage.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/OfertasUsage.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\ProvedoresUsage.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\ProvedoresUsage.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/ProvedoresUsage.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/ProvedoresUsage.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\PuntoDeVenta.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\PuntoDeVenta.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/PuntoDeVenta.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/PuntoDeVenta.cpp.obj"
+},
+{
+  "directory": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/Build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe   -g -o CMakeFiles\\Tienda_Parra.dir\\src\\StockUsage.cpp.obj -c \"C:\\Users\\jaret\\OneDrive - Universidad Veracruzana\\2Semestre\\Programacion Estructurada\\Proyecto_Final\\src\\StockUsage.cpp\"",
+  "file": "C:/Users/jaret/OneDrive - Universidad Veracruzana/2Semestre/Programacion Estructurada/Proyecto_Final/src/StockUsage.cpp",
+  "output": "CMakeFiles/Tienda_Parra.dir/src/StockUsage.cpp.obj"
 }
 ]
