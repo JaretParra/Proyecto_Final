@@ -1,25 +1,23 @@
-#include"../Headers/StockUsage.h"
-
-
+#include"../Headers/MenuMercancia.h"
 
 void MenuMercancia(){
 
     bool flag=false;
     int opcion;
-while(flag==false){
-system("cls");
+    while(flag==false){
+        system("cls");
 
-    cout << "\tBIENVENIDO AL MENU DE MERCANCIA"<<endl;
-    cout<<"1) Registrar Usuario."<<endl;
-    cout<<"2) Eliminar Usuario."<<endl;
-    cout<<"3) Modificar Usuarios."<<endl;
-    cout<<"4) Consultar Usuarios."<<endl;
-    cout<<"5) salir del Modulo."<<endl;
-    cout<<"Digite el numero de la opcion a realizar: ";
-    cin>>opcion;
+        cout << "\tBIENVENIDO AL MENU DE MERCANCIA"<<endl;
+        cout<<"1) Ingresar Mercancia."<<endl;
+        cout<<"2) Eliminar Mercancia."<<endl;
+        cout<<"3) Modificar Mercancia."<<endl;
+        cout<<"4) Consultar Mercancia."<<endl;
+        cout<<"5) salir del Modulo."<<endl;
+        cout<<"Digite el numero de la opcion a realizar: ";
+        cin>>opcion;
 
-    if(opcion==1){
-          altaStock();
+        if(opcion==1){
+            altaStock();
         }
         if(opcion==2){
             bajaStock();
@@ -34,6 +32,5 @@ system("cls");
         if(opcion==5){
             flag==true;
         }
-}
-    
+    }
 }
