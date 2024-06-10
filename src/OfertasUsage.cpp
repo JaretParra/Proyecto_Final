@@ -1,5 +1,10 @@
 #include"../Headers/OfertasUsage.h"
 
+string fileName = "../Data/Ofertas.txt";
+
+ofstream outfile;
+ifstream infile;
+
 void altaOfertas(string _datos[2]){
     outfile.open(fileName);
 

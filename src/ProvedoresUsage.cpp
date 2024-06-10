@@ -1,5 +1,10 @@
 #include"../Headers/ProvedoresUsage.h"
 
+string fileName = "../Data/Provedores.txt";
+
+ofstream outfile;
+ifstream infile;
+
 void altaDatos(string _datos[3]){
     outfile.open(fileName);
 

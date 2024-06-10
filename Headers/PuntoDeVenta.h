@@ -31,15 +31,3 @@ struct Ticket {
     double montoRecibido; // Monto recibido en caso de pago en efectivo
     double cambio; // Cambio a devolver al cliente en caso de pago en efectivo
 };
-
-string obtenerFechaHora(){}
-
-void mostrarTicket(const Ticket& ticket){}
-
-void agregarProducto(Ticket& ticket, const Producto& producto){}
-
-void eliminarProducto(Ticket& ticket, int idProducto){}
-
-void cancelarCompra(Ticket& ticket){}
-
-void PuntoDeVenta(){}

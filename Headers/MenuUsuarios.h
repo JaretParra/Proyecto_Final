@@ -6,12 +6,4 @@
 
 #include"FileUsage.h"
 
-void RegistrarUsuario(){}
-
-string EliminarUsuario(){}
-
-void ModificarUsuario(){}
-
-void MenuUsuarios(){}
-
 #endif

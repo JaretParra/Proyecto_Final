@@ -1,5 +1,11 @@
 #include"../Headers/StockUsage.h"
 
+string fileName = "../Data/Stock.txt";
+
+ofstream outfile;
+ifstream infile;
+
+
 void altaStock(string _datos[4]){
     outfile.open(fileName);
 
