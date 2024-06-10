@@ -1,5 +1,6 @@
-CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\main.cpp \
+CMakeFiles/Tienda_Parra.dir/src/OfertasUsage.cpp.obj: \
+ C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\src\OfertasUsage.cpp \
+ C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/Headers/OfertasUsage.h \
  C:/msys64/ucrt64/include/c++/13.2.0/iostream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -134,37 +135,16 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/vector \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuMercancia.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/StockUsage.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/array \
  C:/msys64/ucrt64/include/c++/13.2.0/compare \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuOfertas.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/OfertasUsage.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ctime \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuProvedores.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/ProvedoresUsage.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuUsuarios.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/FileUsage.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/FileUsage.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/PuntoDeVenta.h \
- C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tempbuf.h \
- C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/iterator \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
- C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/Headers/StockUsage.h
+ C:/msys64/ucrt64/include/c++/13.2.0/ctime

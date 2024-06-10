@@ -1,5 +1,10 @@
 #include"../Headers/FileUsage.h"
 
+string fileName = "../Data/usuarios.txt";
+
+ofstream outfile;
+ifstream infile;
+
 /*Ingresa usuarios*/
 void altaDatos(string _datos[3]){
     outfile.open(fileName);

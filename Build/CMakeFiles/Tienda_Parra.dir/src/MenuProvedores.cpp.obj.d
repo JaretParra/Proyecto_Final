@@ -1,11 +1,31 @@
-CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\main.cpp \
- C:/msys64/ucrt64/include/c++/13.2.0/iostream \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
+CMakeFiles/Tienda_Parra.dir/src/MenuProvedores.cpp.obj: \
+ C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\src\MenuProvedores.cpp \
+ C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/Headers/MenuProvedores.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h \
+ C:/msys64/ucrt64/include/stdlib.h C:/msys64/ucrt64/include/corecrt.h \
+ C:/msys64/ucrt64/include/_mingw.h C:/msys64/ucrt64/include/_mingw_mac.h \
+ C:/msys64/ucrt64/include/_mingw_secapi.h \
+ C:/msys64/ucrt64/include/vadefs.h \
+ C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/corecrt_wstdlib.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
+ C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+ C:/msys64/ucrt64/include/malloc.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
+ C:/msys64/ucrt64/include/errno.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/cctype \
+ C:/msys64/ucrt64/include/ctype.h \
+ C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/Headers/ProvedoresUsage.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/iostream \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ostream \
  C:/msys64/ucrt64/include/c++/13.2.0/ios \
  C:/msys64/ucrt64/include/c++/13.2.0/iosfwd \
@@ -13,13 +33,8 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cwchar \
- C:/msys64/ucrt64/include/wchar.h C:/msys64/ucrt64/include/corecrt.h \
- C:/msys64/ucrt64/include/_mingw.h C:/msys64/ucrt64/include/_mingw_mac.h \
- C:/msys64/ucrt64/include/_mingw_secapi.h \
- C:/msys64/ucrt64/include/vadefs.h \
- C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
+ C:/msys64/ucrt64/include/wchar.h \
  C:/msys64/ucrt64/include/corecrt_stdio_config.h \
- C:/msys64/ucrt64/include/corecrt_wstdlib.h \
  C:/msys64/ucrt64/include/_mingw_off_t.h \
  C:/msys64/ucrt64/include/_mingw_stat64.h \
  C:/msys64/ucrt64/include/swprintf.inl \
@@ -30,7 +45,7 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
- C:/msys64/ucrt64/include/stddef.h C:/msys64/ucrt64/include/crtdefs.h \
+ C:/msys64/ucrt64/include/stddef.h \
  C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h \
  C:/msys64/ucrt64/include/c++/13.2.0/new \
@@ -43,18 +58,14 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/clocale \
  C:/msys64/ucrt64/include/locale.h C:/msys64/ucrt64/include/stdio.h \
  C:/msys64/ucrt64/include/sec_api/stdio_s.h \
- C:/msys64/ucrt64/include/c++/13.2.0/cctype \
- C:/msys64/ucrt64/include/ctype.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ios_base.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/atomicity.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/errno.h \
- C:/msys64/ucrt64/include/sys/types.h C:/msys64/ucrt64/include/process.h \
+ C:/msys64/ucrt64/include/pthread.h C:/msys64/ucrt64/include/sys/types.h \
+ C:/msys64/ucrt64/include/process.h \
  C:/msys64/ucrt64/include/corecrt_startup.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h \
- C:/msys64/ucrt64/include/limits.h C:/msys64/ucrt64/include/signal.h \
+ C:/msys64/ucrt64/include/signal.h \
  C:/msys64/ucrt64/include/pthread_signal.h \
  C:/msys64/ucrt64/include/time.h C:/msys64/ucrt64/include/sys/timeb.h \
  C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
@@ -100,13 +111,6 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/string_view.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h \
- C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
- C:/msys64/ucrt64/include/stdlib.h \
- C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
- C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h \
- C:/msys64/ucrt64/include/malloc.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
  C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
  C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h \
@@ -134,37 +138,15 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/istream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc \
- C:/msys64/ucrt64/include/c++/13.2.0/vector \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuMercancia.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/StockUsage.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
+ C:/msys64/ucrt64/include/c++/13.2.0/vector \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
+ C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/array \
- C:/msys64/ucrt64/include/c++/13.2.0/compare \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuOfertas.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/OfertasUsage.h \
- C:/msys64/ucrt64/include/c++/13.2.0/ctime \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuProvedores.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/ProvedoresUsage.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuUsuarios.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/FileUsage.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/FileUsage.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/PuntoDeVenta.h \
- C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tempbuf.h \
- C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_algorithm_defs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/pstl/execution_defs.h \
- C:/msys64/ucrt64/include/c++/13.2.0/iterator \
- C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h \
- C:/Users/jaret/OneDrive\ -\ Universidad\ Veracruzana/2Semestre/Programacion\ Estructurada/Proyecto_Final/Headers/StockUsage.h
+ C:/msys64/ucrt64/include/c++/13.2.0/compare
