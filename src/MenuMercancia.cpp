@@ -1,4 +1,5 @@
 #include"../Headers/MenuMercancia.h"
+#include"../Headers/StockUsage.h"
 
 string datos[4]={"#100","","$0","X0"};
 string nombre="";
