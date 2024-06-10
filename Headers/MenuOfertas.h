@@ -1,0 +1,17 @@
+#ifndef MENUOFERTAS_H
+#define MENUOFERTAS_H
+
+#include<stdlib.h>
+#include<cctype>
+
+#include"OfertasUsage.h"
+
+void RegistrarOfertas(){}
+
+string EliminarOfertas(){}
+
+void ModificarOfertas(){}
+
+void MenuOfertas(){}
+
+#endif

@@ -1,8 +1,7 @@
-#include"../Headers/MenuUsuarios.h" //provisional
+#include"../Headers/MenuProvedores.h"
+
 string datos[3]={"","",""};
 string nombre="";
-
-//Intente crear un MenuProvedores.h pero no me dejo y me dio miedo regarla en algo asi que esta conectado al MenuUsuarios.h
 
 void RegistrarProvedor(){
     system("cls");

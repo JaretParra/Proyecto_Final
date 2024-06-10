@@ -1,5 +1,3 @@
-//Todos los datos son inventaos e improvisados, debe enlazarse con las demas partes de la bd si se tiene lista.
-
 #include <iostream>
 #include <vector>
 #include <ctime>
