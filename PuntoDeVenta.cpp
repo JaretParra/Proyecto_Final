@@ -33,14 +33,14 @@ struct Ticket {
     double cambio; // Cambio a devolver al cliente en caso de pago en efectivo
 };
 
-// Funci�n para obtener la fecha y hora actual
+// Funcion para obtener la fecha y hora actual
 string obtenerFechaHora() {
     time_t now = time(0);
     char* dt = ctime(&now);
     return string(dt);
 }
 
-// Funci�n para mostrar un ticket
+// Funcion para mostrar un ticket
 void mostrarTicket(const Ticket& ticket) {
     system("cls");
     cout << "\n\n\nFecha y Hora: " << obtenerFechaHora() << endl;
@@ -70,13 +70,13 @@ void mostrarTicket(const Ticket& ticket) {
     cout << "-----------------------------------" << endl;
 }
 
-// Funci�n para a�adir un producto al ticket
+// Funcion para añadir un producto al ticket
 void agregarProducto(Ticket& ticket, const Producto& producto) {
     ticket.productos.push_back(producto);
     system("cls");
 }
 
-// Funci�n para eliminar un producto del ticket por ID
+// Funcion para eliminar un producto del ticket por ID
 void eliminarProducto(Ticket& ticket, int idProducto) {
     ticket.productos.erase(
         remove_if(ticket.productos.begin(), ticket.productos.end(),
@@ -85,7 +85,7 @@ void eliminarProducto(Ticket& ticket, int idProducto) {
     system("cls");
 }
 
-// Funci�n para cancelar toda la compra
+// Funcion para cancelar toda la compra
 void cancelarCompra(Ticket& ticket) {
     ticket.productos.clear();
     system("cls");
@@ -99,7 +99,7 @@ int main() {
 
     int opcion;
     do {
-        cout << "1. A�adir producto" << endl;
+        cout << "1. Añadir producto" << endl;
         cout << "2. Eliminar producto" << endl;
         cout << "3. Cancelar compra" << endl;
         cout << "4. Pagar y mostrar ticket" << endl;
@@ -149,7 +149,7 @@ int main() {
 
                         if (ticket.montoRecibido < ticket.total) {
                             cout << "ERROR: El monto recibido es menor que el total a pagar." << endl;
-                            continue; // Volver al men� principal
+                            continue; // Volver al menu principal
                         }
 
 
@@ -185,4 +185,3 @@ int main() {
 
     return 0;
 }
-
