@@ -6,12 +6,4 @@
 
 #include"OfertasUsage.h"
 
-void RegistrarOfertas(){}
-
-string EliminarOfertas(){}
-
-void ModificarOfertas(){}
-
-void MenuOfertas(){}
-
 #endif

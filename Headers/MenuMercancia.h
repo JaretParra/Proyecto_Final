@@ -6,12 +6,4 @@
 
 #include"StockUsage.h"
 
-void RegistrarMercancia(){}
-
-string EliminarMercancia(){}
-
-void ModificarMercancia(){}
-
-void MenuMercancia(){}
-
 #endif

@@ -6,12 +6,4 @@
 
 #include"ProvedoresUsage.h"
 
-void RegistrarProvedores(){}
-
-string EliminarProvedores(){}
-
-void ModificarProvedores(){}
-
-void MenuProvedores(){}
-
 #endif
