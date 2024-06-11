@@ -44,7 +44,7 @@ void ModuloAlmacen(){
         cin>>_opcion;
 
         if(_opcion==1){
-            MenuMercancia();
+            MenuMercancia(); 
         }
         if(_opcion==2){
             MenuProvedores();

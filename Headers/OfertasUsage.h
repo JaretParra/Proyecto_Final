@@ -10,4 +10,12 @@
 
 using namespace std;
 
+void altaOfertas(string _datos[2]);
+
+void bajaOfertas(string _fecha);
+
+void cambiosOfertas(string _fecha, string _datos[2]);
+
+void consultaOfertas();
+
 #endif

@@ -42,7 +42,7 @@ string EliminarMercancia(){
     }
 }
 
-void ModificarUsuario(){
+void ModificarMercancia(){
     system("cls");
     
     cout<<"3)Modificacion de Mercancia."<<endl;

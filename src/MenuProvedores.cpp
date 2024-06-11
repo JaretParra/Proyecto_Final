@@ -74,14 +74,14 @@ bool flag=false;
         cin>>opcion;
 
         if(opcion==1){
-            RegistrarUsuario();
+            RegistrarProvedor();
             altaDatos(datos);
         }
         if(opcion==2){
             bajaDatos(EliminarProvedor());
         }
         if(opcion==3){
-            ModificarUsuario();
+            ModificarProvedor();
             cambiosDatos(nombre,datos);
         }
         if(opcion==4){

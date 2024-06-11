@@ -60,7 +60,7 @@ void bajaDatos(string _nombre){
 }
 
 
-void cambiosdatos(string _nombre, string _datos[3]){
+void cambiosDatos(string _nombre, string _datos[3]){
     string dato;
     string linea;
     vector<string> temp;

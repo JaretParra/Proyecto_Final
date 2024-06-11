@@ -9,4 +9,12 @@
 
 using namespace std;
 
+void altaDatos(string _datos[3]);
+
+void bajaDatos(string _nombre);
+
+void cambiosDatos(string _nombre, string _datos[3]);
+
+void consultaDatos();
+
 #endif

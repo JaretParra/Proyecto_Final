@@ -9,4 +9,12 @@
 
 using namespace std;
 
+void altaStock(string _datos[4]);
+
+void bajaStock(string _nombre);
+
+void cambiosStock(string _nombre, string _datos[4]);
+
+void consultaStock();
+
 #endif
