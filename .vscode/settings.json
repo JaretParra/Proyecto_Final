@@ -5,5 +5,8 @@
         "ostream": "cpp",
         "iosfwd": "cpp",
         "fstream": "cpp"
-    }
+    },
+    "C_Cpp.codeAnalysis.clangTidy.checks.disabled": [
+        "clang-diagnostic-unused-comparison"
+    ]
 }
