@@ -155,12 +155,14 @@ string sesion(){
             if(i==(num_line+1)){
                 if(passwd==linea){
                     while(infile>>linea){
-                        if(linea=="admin"){
-                            infile.close();
-                            return "admin";
-                        }else{
-                            infile.close();
-                            return "cajero";
+                        if(i==num_line+2){
+                            if(linea=="admin"){
+                                infile.close();
+                                return "admin";
+                            }else{
+                                infile.close();
+                                return "cajero";
+                            }
                         }
                     }
                 }
@@ -170,4 +172,5 @@ string sesion(){
         infile.close();
         return "not_found";
     }
+    return "not_found";
 }

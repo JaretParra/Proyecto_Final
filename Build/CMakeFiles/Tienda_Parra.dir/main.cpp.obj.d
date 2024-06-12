@@ -140,8 +140,7 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
  C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuMercancia.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuOfertas.h \
- C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/OfertasUsage.h \
+ C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/StockUsage.h \
  C:/msys64/ucrt64/include/c++/13.2.0/fstream \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h \
  C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h \
@@ -149,6 +148,8 @@ CMakeFiles/Tienda_Parra.dir/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc \
  C:/msys64/ucrt64/include/c++/13.2.0/array \
  C:/msys64/ucrt64/include/c++/13.2.0/compare \
+ C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuOfertas.h \
+ C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/OfertasUsage.h \
  C:/msys64/ucrt64/include/c++/13.2.0/ctime \
  C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/MenuProvedores.h \
  C:\Users\jaret\OneDrive\ -\ Universidad\ Veracruzana\2Semestre\Programacion\ Estructurada\Proyecto_Final\Headers/ProvedoresUsage.h \
