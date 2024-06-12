@@ -53,13 +53,13 @@ void ModuloAlmacen(){
             MenuOfertas();
         }
         if(_opcion==4){
-            flag_a == false;
+            flag_a = false;
         }
     }
 }
 
 int main(){
-    int opcion;
+    int opcion=3;
     bool acabar=false;
     string rol = "not_found";
 
@@ -69,13 +69,13 @@ int main(){
         if(rol=="admin"){
             opcion = MenuAdmin();
 
-            if(opcion=1){
+            if(opcion==1){
                 MenuUsuarios();
             }
-            if(opcion=2){
+            if(opcion==2){
                 ModuloAlmacen();
             }
-            if(opcion=3){
+            if(opcion==3){
                 acabar=true;
             }
         }
