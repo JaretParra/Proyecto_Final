@@ -1,5 +1,4 @@
 #include"../Headers/MenuMercancia.h"
-#include"../Headers/StockUsage.h"
 
 string datos[4]={"#100","","$0","X0"};
 string nombre="";
@@ -35,7 +34,7 @@ string EliminarMercancia(){
     cin>>confir;
     confir = tolower(confir);
 
-    if(confir='y'){
+    if(confir=='y'){
         return nombre;
     }else{
         return "error_not_found";
@@ -51,13 +50,13 @@ void ModificarMercancia(){
     getline(cin,nombre);
 
     cout<<"\nIngresa los nuevos datos de la Mercancia:"<<endl;
-    cout<<"Id: ";
+    cout<<"Id: #";
     getline(cin,datos[0]);
     cout<<"Nombre: ";
     getline(cin,datos[1]);
-    cout<<"Precio: ";
+    cout<<"Precio: $";
     getline(cin,datos[2]);
-    cout<<"Cantidad: ";
+    cout<<"Cantidad: X";
     getline(cin,datos[3]);
 }
 

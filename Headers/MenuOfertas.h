@@ -6,4 +6,10 @@
 
 #include"OfertasUsage.h"
 
+void RegistrarOfertas();
+
+void ModificarOfertas();
+
+void MenuOfertas();
+
 #endif

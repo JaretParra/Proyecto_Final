@@ -6,4 +6,12 @@
 
 #include"FileUsage.h"
 
+void RegistrarUsuario();
+
+void ModificarUsuario();
+
+string EliminarUsuario();
+
+void MenuUsuarios();
+
 #endif
